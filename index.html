@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Royal Taste Restaurant - Welcome</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Royal Taste Restaurant</div>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <div class="hero">
+            <h1>Welcome to Royal Taste Restaurant</h1>
+            <p>Delicious food made with love and fresh ingredients.</p>
+            <div class="hero-buttons">
+                <a href="#menu" class="btn">View Menu</a>
+                <a href="#contact" class="btn btn-secondary">Book Table</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="menu">
+        <h2>Our Menu</h2>
+        <div class="menu-section">
+            <h3>Starters</h3>
+            <div class="menu-container">
+                <div class="menu-item">
+                    <img src="images/soup.jpg" alt="Veg Soup">
+                    <h4>Veg Soup</h4>
+                    <p>Healthy and nutritious vegetable soup</p>
+                    <span class="price">₹120</span>
+                </div>
+                <div class="menu-item">
+                    <img src="images/panner.jpg" alt="Paneer Tikka">
+                    <h4>Paneer Tikka</h4>
+                    <p>Spicy grilled paneer cubes</p>
+                    <span class="price">₹180</span>
+                </div>
+            </div>
+        </div>
+        <div class="menu-section">
+            <h3>Main Course</h3>
+            <div class="menu-container">
+                <div class="menu-item">
+                    <img src="images/butter_paneer.jpg" alt="Butter Paneer">
+                    <h4>Butter Paneer</h4>
+                    <p>Creamy paneer in rich butter gravy</p>
+                    <span class="price">₹220</span>
+                </div>
+                <div class="menu-item">
+                    <img src="images/veg_biryani.jpg" alt="Veg Biryani">
+                    <h4>Veg Biryani</h4>
+                    <p>Aromatic rice dish with mixed vegetables</p>
+                    <span class="price">₹200</span>
+                </div>
+            </div>
+        </div>
+        <div class="menu-section">
+            <h3>Desserts</h3>
+            <div class="menu-container">
+                <div class="menu-item">
+                    <img src="images/icecream.jpg" alt="Ice Cream">
+                    <h4>Ice Cream</h4>
+                    <p>Cool and refreshing ice cream</p>
+                    <span class="price">₹80</span>
+                </div>
+                <div class="menu-item">
+                    <img src="images/gulab_jambu.jpg" alt="Gulab Jamun">
+                    <h4>Gulab Jamun</h4>
+                    <p>Sweet dumplings in rose syrup</p>
+                    <span class="price">₹90</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery">
+        <h2>Gallery</h2>
+        <div class="slider">
+            <div class="slider-container">
+                <img src="images/pizza.jpg" alt="Pizza">
+                <img src="images/samosa.jpg" alt="Samosa">
+                <img src="images/dhosa.jpg" alt="Dosa">
+                <img src="images/col drink.jpg" alt="Cold Drink">
+                <img src="images/icecream.jpg" alt="Ice Cream">
+                <img src="images/gulab_jambu.jpg" alt="Gulab Jamun">
+            </div>
+            <button class="prev-btn"><</button>
+            <button class="next-btn">></button>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <div class="about-content">
+            <img src="https://via.placeholder.com/500x300?text=Restaurant+Interior" alt="Restaurant Interior">
+            <div class="about-text">
+                <p>Royal Taste Restaurant was started in 2015 with the mission of serving delicious and hygienic food to customers.</p>
+                <p>Our chefs bring years of experience and creativity to every dish, ensuring that each meal is a culinary journey.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonials">
+        <h2>What Our Customers Say</h2>
+        <div class="testimonials-container">
+            <div class="testimonial">
+                <p>"Amazing food and excellent service! The butter paneer is a must-try. Highly recommended!"</p>
+                <cite>- Priya Sharma</cite>
+            </div>
+            <div class="testimonial">
+                <p>"Great atmosphere and delicious dishes. The veg biryani was absolutely fantastic!"</p>
+                <cite>- Rajesh Patel</cite>
+            </div>
+            <div class="testimonial">
+                <p>"Best restaurant in town! Clean, hygienic, and the staff is very friendly."</p>
+                <cite>- Meera Joshi</cite>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <div class="contact-container">
+            <div class="contact-info">
+                <h3>Get in Touch</h3>
+                <p><strong>Phone:</strong> 7862809356</p>
+                <p><strong>Email:</strong> jeetghelani61@gmail.com</p>
+                <p><strong>Location:</strong> Rajkot, Gujarat</p>
+                <p><strong>Hours:</strong> Mon-Sun: 11am - 10pm</p>
+            </div>
+            <div class="booking-form">
+                <h3>Book a Table</h3>
+                <form id="bookingForm">
+                    <input type="text" id="name" placeholder="Your Name" required>
+                    <input type="email" id="email" placeholder="Your Email" required>
+                    <input type="tel" id="phone" placeholder="Phone Number" required>
+                    <input type="date" id="date" required>
+                    <input type="time" id="time" required>
+                    <select id="guests" required>
+                        <option value="">Number of Guests</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">+81</option>
+                        <option value="5">+91</option>
+                    </select>
+                    <textarea id="message" placeholder="Special Requests"></textarea>
+                    <button type="submit" class="btn">Book Table</button>
+                </form>
+            </div>
+            <div class="map">
+                <h3>Find Us</h3>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.241264875!2d-73.98784868459375!3d40.74844097932847!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259a9b3117469%3A0xd134e199a405a163!2sEmpire%20State%20Building!5e0!3m2!1sen!2sus!4v1623456789012!5m2!1sen!2sus" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2023 Royal Taste Restaurant. All rights reserved.</p>
+            <div class="social-links">
+                <a href="#" class="social-link">Facebook</a>
+                <a href="#" class="social-link">Instagram</a>
+                <a href="#" class="social-link">Twitter</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
